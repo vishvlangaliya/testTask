@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Welcome Email</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body
+    style="margin: 0; box-sizing: border-box; padding: 0; font-family: 'Poppins', sans-serif; font-weight: normal; overflow-x: hidden;">
+    <div class="email-template-bg"
+        style="  box-sizing: border-box; display: flex; justify-content: center; align-items: center;">
+        <div class="inner-template"
+            style="box-sizing: border-box; max-width: 575px; padding: 30px 30px; width: 100%;margin: auto; background: #ffffff;">
+            <h1 class="welcome-title"
+                style="box-sizing: border-box; margin: 0; font-size: 35px; font-weight: 600; line-height: 46px; text-align: center; margin-bottom: 15px;  color: #3C3C3C;">
+                Welcome To test application.</h1>
+            <p class="registered-content"
+                style="box-sizing: border-box;  margin: 0; margin-bottom: 30px; text-align: center;  font-size: 16px; color: #5a5e6a; font-weight: 400;">
+                You have registered as an test user.</p>
+            <div class="credentials-box"
+                style="box-sizing: border-box; border: 1px solid #de4948;background-color:#eeeeee; padding: 20px 20px; border-radius: 7px; margin-bottom: 30px;">
+                <h2
+                    style="box-sizing: border-box; margin: 0; color: #de4948; font-weight: 500; font-size: 19px;  margin-bottom: 10px;">
+                    Your
+                    credentials
+                </h2>
+                <ul style="box-sizing: border-box; padding: 0; margin: 0; list-style: none;">
+                    <li
+                        style="box-sizing: border-box;margin-left: 0; margin-bottom: 6px; font-size: 15px; font-weight: 400; line-height: 24px;  color: #5a5e6a;">
+                        <span style="box-sizing: border-box; margin-right: 5px;">Email :</span>{{email}}
+                    </li>
+                    <li
+                        style="box-sizing: border-box;margin-left: 0; margin-bottom: 6px; font-size: 15px; font-weight: 400; line-height: 24px;  color: #5a5e6a;">
+                        <span style="box-sizing: border-box; margin-right: 5px;">Password
+                            :</span>{{password}}
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
